@@ -24,6 +24,7 @@ public class Main {
         inventario.insertarPlanta(ficus);
         inventario.insertarPlanta(laurel);
         System.out.println(inventario);
+
         System.out.println("MOSTRAMOS LISTA DE PLANTAS (NOMBRE Y TIPO)");
         inventario.mostrarListaPlantas();
 

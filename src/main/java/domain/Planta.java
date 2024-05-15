@@ -2,8 +2,6 @@ package domain;
 
 public abstract class Planta {
 
-
-
     protected String nombre;
     protected int mesesEdad;
     protected String estado;

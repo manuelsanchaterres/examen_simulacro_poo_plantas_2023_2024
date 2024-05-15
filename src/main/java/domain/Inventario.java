@@ -31,7 +31,7 @@ public class Inventario {
 
         for (Planta planta : plantas) {
 
-            System.out.println(planta);
+            mostrarDatosPlanta(planta);
         }
     }
 

@@ -11,7 +11,7 @@ public abstract class Frutal extends Planta{
         this.tieneFruto = tieneFruto;
         this.colorHoja = colorHoja;
     }
-
+    // PUEDE SER DISPENSABLE YA QUE SÓLO VAMOS A CREAR OBJETOS DERIVADOS MELOCOTONERO Y ALBARICOQUERO
     @Override
     public String toString() {
         return "Frutal{" +
