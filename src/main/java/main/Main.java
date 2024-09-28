@@ -32,7 +32,7 @@ public class Main {
         inventario.mostrarDatosPlanta(albaricoquero);
 
         System.out.println("MOSTRAMOS TODOS LOS DATOS DE TODAS LAS PLANTAS");
-        inventario.mostrarTodosDatosPlantas();
+        inventario.mostrarDatosPlantas();
 
         System.out.println("ELIMINAR FICUS DEL INVENTARIO");
         System.out.println(inventario);
@@ -44,13 +44,13 @@ public class Main {
         inventario.vaciarInventario();
         System.out.println(inventario);
 
-        System.out.println("LAUREL CUMPLE AÑOS");
         System.out.println(laurel);
+        System.out.println("LAUREL CUMPLE AÑOS");
         laurel.cumpleaños();
         System.out.println(laurel);
 
-        System.out.println("ALBARICOQUERO MUERE");
         System.out.println(albaricoquero);
+        System.out.println("ALBARICOQUERO MUERE");
         albaricoquero.morir();
         System.out.println(albaricoquero);
 
