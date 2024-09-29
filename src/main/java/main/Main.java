@@ -18,7 +18,7 @@ public class Main {
         Ficus ficus = new Ficus("ficus",12, TipoPlanta.Ficus,"brasil",12.25);
         Laurel laurel = new Laurel("laurel",9, TipoPlanta.Laurel,"marrón");
 
-        System.out.println("INSERTAMOS MELOCOTENERO, ALBARICOQUERO, FICUS Y LAURAL");
+        System.out.println("INSERTAMOS MELOCOTONERO, ALBARICOQUERO, FICUS Y LAURAL");
         inventario.insertarPlanta(melocotonero);
         inventario.insertarPlanta(albaricoquero);
         inventario.insertarPlanta(albaricoquero);
