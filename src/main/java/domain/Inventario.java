@@ -24,7 +24,19 @@ public class Inventario {
 
     public void mostrarDatosPlanta(Planta planta) {
 
-        System.out.println(planta);
+        if (plantaEncontradaInventario(planta)) {
+
+            System.out.println(planta);
+        } else {
+
+            System.out.println("LA PLANTA NO SE ENCUENTRA EN EL INVENTARIO!!!");
+        }
+
+    }
+
+    public boolean plantaEncontradaInventario (Planta planta) {
+
+        return plantas.contains(planta);
     }
 
     public void mostrarDatosPlantas(){
@@ -37,12 +49,25 @@ public class Inventario {
 
     public void insertarPlanta(Planta planta) {
 
-        plantas.add(planta);
+        if (plantaEncontradaInventario(planta)) {
+
+            System.out.println( planta.getNombre().toUpperCase() + " YA SE ENCUENTRA EN EL INVENTARIO!!!");
+        } else {
+            plantas.add(planta);
+        }
     }
+
 
     public void eliminarPlanta(Planta planta) {
 
-        plantas.remove(planta);
+        if (plantaEncontradaInventario(planta)) {
+
+            plantas.remove(planta);
+        } else {
+
+            System.out.println( planta.getNombre().toUpperCase() + " NO SE ENCUENTRA EN EL INVENTARIO!!!");
+        }
+
     }
 
     public void vaciarInventario() {

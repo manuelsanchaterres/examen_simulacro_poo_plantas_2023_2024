@@ -21,6 +21,7 @@ public class Main {
         System.out.println("INSERTAMOS MELOCOTENERO, ALBARICOQUERO, FICUS Y LAURAL");
         inventario.insertarPlanta(melocotonero);
         inventario.insertarPlanta(albaricoquero);
+        inventario.insertarPlanta(albaricoquero);
         inventario.insertarPlanta(ficus);
         inventario.insertarPlanta(laurel);
         System.out.println(inventario);
